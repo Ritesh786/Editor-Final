@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.companyproject.fujitsu.editor.EditClass">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newstype_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:text="kjbkkbbkbb"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsheadline_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newscontent_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newscaption_edit"
+        android:textColor="@color/black"
+        android:scrollbarSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/uploadedt_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:layout_marginTop="30dp"
+        android:textColor="#e76a23"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Update News"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="OR"
+        android:textColor="#003973"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="280dp"
+        android:background="#e76a23"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="280dp"
+        android:background="#e76a23"
+        />
+
+    <Button
+        android:id="@+id/editwithimg_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:layout_marginTop="40dp"
+        android:textColor="#e76a23"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Edit With Image"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+</ScrollView>

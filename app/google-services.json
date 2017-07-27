@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445244768888",
+    "firebase_url": "https://editor-438f3.firebaseio.com",
+    "project_id": "editor-438f3",
+    "storage_bucket": "editor-438f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445244768888:android:a43b9644bec65912",
+        "android_client_info": {
+          "package_name": "com.companyproject.fujitsu.editor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445244768888-4fqmt122ndi6rd862hkr3v8ma6o7oh91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyproject.fujitsu.editor",
+            "certificate_hash": "a5602a8c456af1aefe19b7ec94b70d4e199249c2"
+          }
+        },
+        {
+          "client_id": "445244768888-husdoib2i5n1qla0h02a0nfd8gr6j4gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOFK7FdQi9C4NYYYgNsemUpB_zMkpbZCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445244768888-husdoib2i5n1qla0h02a0nfd8gr6j4gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
